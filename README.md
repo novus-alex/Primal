@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69415374/131396754-2fc06d8f-b3b0-4917-b9bb-e09fd9eeda0d.jpg" />
 </p>
-<br><br>
+<br>
 <p align="center">
   Documentation for Primal OS
 </p>
