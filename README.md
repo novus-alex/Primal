@@ -80,3 +80,11 @@ Run on a real computer
  * Run a ISO to USB Stick converter like BalenaEtcher and select the iso file
  * Plug your USB Stick into your computer you want to run the os on
  * In the boot option, select boot with usb and the os will boot!
+
+## Terminal Commands
+ * Only simple commands to test the terminal
+ <br>
+ 
+ ``whoiam`` - ``output: username``
+ <br>
+ ``clear`` - ``clear the screen``
