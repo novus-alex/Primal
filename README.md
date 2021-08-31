@@ -68,7 +68,7 @@ Second method (build on your pc)
 ## How to run
 
 Run on a virtual machine (example with QEMU)
- * Fisrt install a virtual machine hoster like QEMU or VirtualBox
+ * Fisrt install a virtual machine hoster such as QEMU or VirtualBox
  * Run the command in your cmd (only for QEMU)
  * ``qemu-system-x86_64 -cdrom dist/x86_64/primal.iso``
  * For other softwares, follow tutorials to start a custom virtual machine
