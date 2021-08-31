@@ -30,21 +30,53 @@
   SOFTWARE.<br>
 </details>
 
-<details>
-  <summary> Home </summary>
-  <br>
-
-
-  
-</details>
-
-# Support
+## Support
 
 | Platform         | Kernel Support    | Intel support     | AMD support       | 
 | ---------------- | ----------------- | ----------------- | ----------------- |
 | 32bits		       | No		             | No                | No                |
 | 64bits			     | Yes			         | Yes               | Yes               |
 
-<br>
  * For the moment, only 64bits platforms are supported but we are working on 32bits support!
+<br>
 
+| Drivers          | Status            |
+| ---------------- | ----------------- |
+| Keyboard         | Yes               |
+| Mouse            | No                |
+| Sound            | No                |
+| GPU              | No                |
+| Ports            | No                |
+
+## How to build
+
+First method (get iso file from github)
+ * Download the latest release
+
+<br>
+
+Second method (build on your pc)
+ * Install docker
+ * Run the docker file to install the build environment (Special thanks to randomdude for buildenv)
+ * ``docker build buildenv -t primal-buildenv``
+ * Then start the machine
+ * ``docker run --rm -it -v "%cd%":/root/env primal-buildenv``
+ * Whan you are on the machine build primal with make
+ * ``make build-x86_64``
+ * You will see the os iso file ``/dist/x86_64/primal.iso``
+
+## How to run
+
+Run on a virtual machine (example with QEMU)
+ * Fisrt install a virtual machine hoster like QEMU or VirtualBox
+ * Run the command in your cmd (only for QEMU)
+ * ``qemu-system-x86_64 -cdrom dist/x86_64/primal.iso``
+ * For other softwares, follow tutorials to start a custom virtual machine
+
+<br>
+
+Run on a real computer
+ * This option is not the best at this time but I will update the bootloader in the future
+ * Run a ISO to USB Stick converter like BalenaEtcher and select the iso file
+ * Plug your USB Stick into your computer you want to run the os on
+ * In the boot option, select boot with usb and the os will boot!
