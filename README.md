@@ -29,3 +29,22 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE<br>
   SOFTWARE.<br>
 </details>
+
+<details>
+  <summary> Home </summary>
+  <br>
+
+
+  
+</details>
+
+# Support
+
+| Platform         | Kernel Support    | Intel support     | AMD support       | 
+| ---------------- | ----------------- | ----------------- | ----------------- |
+| 32bits		       | No		             | No                | No                |
+| 64bits			     | Yes			         | Yes               | Yes               |
+
+<br>
+ * For the moment, only 64bits platforms are supported but we are working on 32bits support!
+
